@@ -1,0 +1,22 @@
+Postman is an API client that makes it easy for developers to create, share, test and document APIs. This is done by allowing users to create and save simple and complex HTTP/s requests, as well as read their responses. The result - more efficient and less tedious work. I installed postman, logged on to the Trello website and got the token and key for authentication. The programming language I used was sCurl. It is a very short and understandable code to write. It is quick to compile. I created a To Do, Doing and Done board by default
+
+Command used
+
+Task 1: Write a function addToDoItems(boardName, teamMemberName) that adds the following to the “To Do” list on the board boardName
+https://api.trello.com/1/cards?key=76d7812107d0e04d2d5ce18865535cf3&token=0ef2f0e4c9fc02de5d3eb79ec0afde13af3d34454e1d3ab94e3624f34e15c5e4&desc=New work for Tom&due=01/07/2021&name=Tom’s list
+
+Add checklist
+
+https://api.trello.com/1/cards/60d3c88ff6a47f29381b74b8/list?key=76d7812107d0e04d2d5ce18865535cf3&token=0ef2f0e4c9fc02de5d3eb79ec0afde13af3d34454e1d3ab94e3624f34e15c5e4&name=Key Task &id=60da2d04cbdba8599803794a
+
+https://api.trello.com/1/cards/60d3c88ff6a47f29381b74b8/list?key=76d7812107d0e04d2d5ce18865535cf3&token=0ef2f0e4c9fc02de5d3eb79ec0afde13af3d34454e1d3ab94e3624f34e15c5e4&name=Additional Task &id=60da2d04cbdba8599803794a
+
+Add item to card
+https://api.trello.com/1/checklists/60da2d04cbdba8599803794a/checkItems?key=76d7812107d0e04d2d5ce18865535cf3&token=0ef2f0e4c9fc02de5d3eb79ec0afde13af3d34454e1d3ab94e3624f34e15c5e4&name=Key Task 1&id=60da2d04cbdba8599803794a
+
+https://api.trello.com/1/checklists/60da2d04cbdba8599803794a/checkItems?key=76d7812107d0e04d2d5ce18865535cf3&token=0ef2f0e4c9fc02de5d3eb79ec0afde13af3d34454e1d3ab94e3624f34e15c5e4&name=Key Task 2&id=60da2d04cbdba8599803794a
+
+
+https://api.trello.com/1/checklists/60e0281136c19b5f9cb00c84/checkItems?key=76d7812107d0e04d2d5ce18865535cf3&token=0ef2f0e4c9fc02de5d3eb79ec0afde13af3d34454e1d3ab94e3624f34e15c5e4&name=Additional task 1&id=60da2d04cbdba8599803794a
+
+https://api.trello.com/1/checklists/60e0281136c19b5f9cb00c84/checkItems?key=76d7812107d0e04d2d5ce18865535cf3&token=0ef2f0e4c9fc02de5d3eb79ec0afde13af3d34454e1d3ab94e3624f34e15c5e4&name=Additional task 2&id=60da2d04cbdba8599803794a
